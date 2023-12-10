@@ -1,5 +1,4 @@
-#Attempt 1
-
+import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -145,7 +144,7 @@ def make_prediction(input_data):
 
 
 
-import streamlit as st
+
 
 audio_file_path = '/Users/adampiro/Downloads/8d82b5_Super_Mario_Bros_Power_Up_Sound_Effect.mp3'  # Replace with the path to your audio file
 audio_html = f"""
@@ -268,7 +267,6 @@ if submit_button:
     else :
         st.write(f"No, this is not a Linked In user!")
 #run application
-
 
 
 
